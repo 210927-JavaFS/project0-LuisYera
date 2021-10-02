@@ -1,5 +1,9 @@
 package com.revature;
 
-public class Teller {
-
+public class Teller extends User {
+	
+	public Teller (String name) {
+		setName(name);
+	}
+	
 }
